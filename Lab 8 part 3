@@ -124,3 +124,4 @@ void Timer_PWM(int duty){               //runs timer given the specified duty cy
         TIMER_A0-> CCR[4] = (37500 * duty / 100) - 1;   //Sets the duty cycle.
     TIMER_A0-> CCTL[4] = 0b11100000;                    //reset/set mode
 }
+ 
