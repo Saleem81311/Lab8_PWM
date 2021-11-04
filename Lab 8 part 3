@@ -8,7 +8,7 @@
 #include "msp.h"
 #include <stdio.h>
 #include <stdlib.h>
-
+//eyo 
 int Read_Keypad (void);                         //function declarations
 int arrayToDuty(int array[]);
 void Timer_PWM(int duty);
@@ -110,6 +110,7 @@ int arrayToDuty(int code[]){            //converts the array of digits into a 3 
      int newDuty;
 
      newDuty = (code[0] * 100) + (code[1] * 10) + code[2];
+     
 
      return newDuty;
 }
